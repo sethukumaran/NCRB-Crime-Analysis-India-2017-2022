@@ -2,7 +2,7 @@
 
 This project analyzes district-level crime records covering **2017–2022** across **36 States/UTs and 788 districts**, with 25 crime categories. The objective is to identify meaningful changes in crime patterns, concentration hotspots, category-level growth, and emerging cybercrime exposure.
 
-The analysis is designed from a **senior data analyst perspective**, combining:
+The analysis is designed from a senior data analyst perspective, combining:
 
 - Exploratory Data Analysis (EDA)
 - Data-quality validation
@@ -12,11 +12,8 @@ The analysis is designed from a **senior data analyst perspective**, combining:
 - Cybercrime concentration analysis
 - SQL business questions
 - Python-based visualization
-- GitHub-ready documentation
 
-> **Important analytical note:** the raw file contains `registration_circles`. Multiple registration-circle rows can exist for the same district/year. Therefore, district-level comparisons are produced only after aggregating the registration-circle records to the district-year level. This avoids treating each registration circle as a separate district.
 
----
 
 ## Dataset
 
@@ -62,7 +59,6 @@ The analysis is designed from a **senior data analyst perspective**, combining:
 - Immoral traffic / prostitution
 - Other IPC / special laws
 
----
 
 # Executive Summary
 
@@ -129,7 +125,6 @@ The highest cumulative cybercrime volumes are observed in:
 
 This concentration can support targeted capacity planning, but raw case volume should not be interpreted as risk per capita without population denominators.
 
----
 
 # Key Business / Analytical Insights
 
@@ -150,7 +145,6 @@ A public-safety analytics program could track:
 - year-over-year change
 - cybercrime share of total recorded crime
 
----
 
 ## Insight 2 — 2020 is an important anomaly / structural break to investigate
 
@@ -173,7 +167,6 @@ Possible follow-up questions:
 
 The dataset alone cannot establish the cause.
 
----
 
 ## Insight 3 — Cybercrime concentration creates an opportunity for targeted capability planning
 
@@ -192,7 +185,6 @@ A resource-planning dashboard could prioritize:
 
 The analysis should be supplemented with population, internet usage, reporting and enforcement-capacity data before making resource-allocation decisions.
 
----
 
 ## Insight 4 — Raw state rankings should not be treated as risk rankings
 
@@ -223,7 +215,6 @@ Join this dataset with:
 
 Then calculate standardized rates.
 
----
 
 ## Insight 5 — District-level hotspot analysis should use aggregated district-year data
 
@@ -237,7 +228,6 @@ before producing district-level rankings.
 
 This is an important data-modeling decision for reproducible analytics.
 
----
 
 # Important Findings Table
 
@@ -259,7 +249,6 @@ This is an important data-modeling decision for reproducible analytics.
 | Cyber fraud growth | 421.8% |
 | Top-5 state cybercrime concentration | 69.2% |
 
----
 
 # SQL Analysis
 
@@ -326,7 +315,6 @@ The script automatically generates eight charts:
 7. Top districts
 8. Cybercrime subcategory trends
 
----
 
 # Visualization Gallery
 
@@ -334,9 +322,7 @@ All charts are stored under:
 
 `outputs/visualizations/`
 
-They are suitable for inclusion in a GitHub portfolio, analyst presentation, or dashboard documentation.
 
----
 
 ### Executive KPIs
 
