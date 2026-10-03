@@ -1,19 +1,6 @@
 """
 NCRB Crime Analysis 2017-2022
-Senior Data Analyst Portfolio Project
 
-Run:
-    pip install -r requirements.txt
-    python ncrb_crime_analysis.py
-
-The script:
-1. Loads and validates the raw CSV.
-2. Performs EDA and data-quality checks.
-3. Aggregates registration-circle records to district/year and state/year.
-4. Calculates trends, concentration, rankings and selected growth metrics.
-5. Saves analytical CSV outputs.
-6. Generates portfolio-ready visualizations.
-"""
 import os
 import pandas as pd
 import numpy as np
