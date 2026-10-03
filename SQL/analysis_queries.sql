@@ -1,8 +1,5 @@
 -- NCRB Crime Analysis 2017-2022
--- Dialect: PostgreSQL-compatible SQL
--- Load the CSV into table: ncrb_crime_raw
--- Grain: registration-circle record within a district/year.
--- Therefore district-level queries aggregate registration_circle rows first.
+
 
 -- 1. Dataset coverage
 SELECT
